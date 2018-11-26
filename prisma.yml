@@ -1,5 +1,5 @@
-#endpoint: ${env:PRISMA_ENDPOINT}
-endpoint: https://new-navy-production-3a7745ba68.herokuapp.com/new-navy-prod/prod
+endpoint: ${env:PRISMA_ENDPOINT}
+# endpoint: https://new-navy-production-3a7745ba68.herokuapp.com/new-navy-prod/prod
 datamodel: datamodel.graphql
 secret: ${env:PRISMA_SECRET}
 hooks:
